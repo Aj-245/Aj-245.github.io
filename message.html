@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" />
+    <title>GataNow</title>
+</head>
+    <body>
+        <nav class=" navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/gata_logo.png" height="64" width= "163"/></a>
+                <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#gataNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="gataNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Economy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Tokens</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Partnerships</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Develop</a></li>
+                    </ul>
+                    <span class="navbar-text">
+                        <a role="button" data-bs-toggle="modal" data-bs-target="#connectModal">
+                            <i class="fa fa-sign-in"></i> 
+                        </a>
+                    </span> 
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col">
+                <p class="wallet">Escrow wallet</p>
+                <button type="button" class="btn" id="btnWallet"> 0.0000 GATA</button>
+            </div>  
+        </div>
+        <section>
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="card" style="background-color: #383838">
+                            <div class="d-flex justify-content-center p-3">
+                                <img src="img/dhl.png" width="50px">
+                            </div>
+                            <div class="card-body" data-mdb-perfect-scrollbar="true" style="position: relative; height: 400px">
+                    
+                                <div class="d-flex flex-row justify-content-start">
+                                    <div>
+                                        <p class="small p-2 ms-3 mb-3 rounded-3" style="background-color: #E8CE6A; color: black" > Write your message here...</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-end mb-4 pt-1">
+                                    <div>
+                                        <p class="small p-2 me-3 mb-3 text-white rounded-3" style="background-color: #333333; color: black"> Write your message here...</p>
+                                    </div>
+                                </div>
+                
+                            </div>
+                            <div class="card-footer text-muted d-flex justify-content-start align-items-center p-2">
+                                <div class="input-group mb-0">
+                                    <input type="text" class="form-control" placeholder="Type message" />
+                                    <i class=" p-2 fa fa-thin fa-camera" style="color:#E8CE6A"></i>
+                                    <i class=" pt-2 fa fa-thin fa-paper-plane fa-rotate-60" style="color:#E8CE6A" ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
